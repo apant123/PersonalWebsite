@@ -6,24 +6,15 @@ body {
 }
 
 .flexbox-container{
-    display: flex;
-    flex-direction: column;
     margin-left: 8%;
     margin-right: 8%;
-    background-color: rgb(16 16 16);
-    color: rgb(247 247 247);
 }
 
 .navbar {
     font-size: 30px;
-    border: 3px solid red;
     margin-bottom: 20px;
 }
 
-.restofwebsite {
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
-}
 .aravimage{
     width: 250px; /* Set the desired width */
     height: auto; /* Maintain aspect ratio */
@@ -36,17 +27,14 @@ body {
    grid-template-columns: 1fr 1fr ;
 }
 .section1text {
-    border: 3px solid red;
    /* background-color: lightblue; */
 }
 .section1texthead {
     font-weight: 700;
-    
 }
 .section1image {
     display: flex;
     justify-content: flex-end;
-    border: 3px solid red;
     /* background-color: pink; */
 }
 
@@ -85,8 +73,16 @@ body {
 .projectgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+
     /* border: solid red; */
 }
+
+
+
+
+
 
 
 .grid1 {
@@ -157,26 +153,77 @@ unicode-bidi: isolate;
     font-family: Inter;
     font-family: "Inter", sans-serif;
     padding-left: 20px;
-    margin-bottom: 40px;
 }
 
 .Coding.Languages {
-    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 45px;
+    margin-bottom: 15px;
     display: grid;
     grid-template-columns:  60px 40px 85px;
-    color: red;
+    grid-column-gap: 5px;
+
 }
 
 .language1 {
-    background-color: #63E6BE;
-    border-radius: 2%;
-    padding-left: 5px;
+    background-color: rgb(222, 165, 132);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: "Inter";
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+
+.Python{
+    color: rgb(222, 165, 132);
+    filter: brightness(0.5);
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-top: 2px;
+    padding-left: 2px;
 }
 
 .language2{
-    background-color: #63E6BE;
+    background-color: rgb(56, 77, 84);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Inter";
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+    padding-top: 4px;
     margin-left: 5px;
-    padding-left: 3px;
+
+}
+.Cplusplus{
+    color: rgb(56, 77, 84);
+    display: block;
+    filter: brightness(0.5);
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding-top: 2px;
 }
 
 .language3{
@@ -259,10 +306,6 @@ unicode-bidi: isolate;
     margin-top: 0px;
     tab-size: 4;
     text-size-adjust: 100%;
-
-
-
-
 }
 
 .grid2{
