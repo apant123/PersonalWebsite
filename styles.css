@@ -32,6 +32,39 @@ body {
 .section1texthead {
     font-weight: 700;
 }
+.Hi {
+    color: red;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+@keyframes colorCycle {
+    0% {
+        color: hsl(240, 80%, 50%);
+    }
+    25% {
+        color: hsl(192, 80%, 50%);
+    }
+    50% {
+        color: hsl(113, 80%, 50%)
+    }
+    65%{
+        color: hsl(262, 80%, 50%)
+    }
+    75% {
+        color:hsl(308deg 80.97% 50.35%);
+    }
+    100% {
+        color: hsl(150, 80%, 50%);
+    }
+}
+
+.Hi:hover {
+    animation: colorCycle 2s infinite; /* Adjust the duration as needed */
+}
+
+
+
+
+
 .section1image {
     display: flex;
     justify-content: flex-end;
