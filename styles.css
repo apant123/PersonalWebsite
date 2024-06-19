@@ -172,19 +172,29 @@ unicode-bidi: isolate;
 
 }
 
-.gridtextcolor{
+.gridtextcolor {
     color: #101010;
     font-weight: 600;
     font-size: 22px;
-    font-family: Inter;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif; /* Removed duplicate font-family property */
     padding-left: 20px;
-    transition: all 10s;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
-.gridtextcolor:hover{
-    font-size:88px;
-    font-size-adjust: 20px;
+
+.gridtextcolor:hover {
+    animation: wave 1s ease-in-out infinite;
 }
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}
+
 
 .InnerGridText {
     color: #101010;
@@ -225,7 +235,48 @@ unicode-bidi: isolate;
     padding-left: 4px;
     padding-right: 8px;
     padding-top: 4px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
+
+.language1:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+
+.language2:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language3:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language4:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language5:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language6:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language7:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language8:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+.language9:hover {
+    animation: wave 1s ease-in-out infinite;
+}
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+
 
 .Python{
     color: rgb(222, 165, 132);
@@ -240,7 +291,10 @@ unicode-bidi: isolate;
     margin-inline-start: 0px;
     padding-top: 2px;
     padding-left: 2px;
+  
 }
+
+
 
 .language2{
     background-color: rgb(56, 77, 84);
@@ -260,6 +314,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 5px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 
 }
 .Cplusplus{
@@ -316,6 +372,8 @@ unicode-bidi: isolate;
     padding-top: 4px;
     text-size-adjust: 100%;
     tab-size: 4;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 
 }
 
@@ -378,6 +436,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 5px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
 
 .HTML {
@@ -413,6 +473,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 5px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
 
 .React{
@@ -448,6 +510,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 5px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
 
 .Node{
@@ -485,6 +549,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 5px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
 
 .Express{
@@ -518,6 +584,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 5px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
 
 .MongoDB{
@@ -552,6 +620,8 @@ unicode-bidi: isolate;
     padding-right: 8px;
     padding-top: 4px;
     margin-left: 3px;
+    transition: all 0.5s ease-in-out; /* Adjusted for a smoother transition */
+    overflow: hidden; /* Keeps the layout tidy during animations */
 }
 
 .CSS{
